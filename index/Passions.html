@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title> Home Page </title>
+        <meta charset="UTF-8">
+        <meta author="name" content="Michael PAVIO">
+
+        <style>
+
+
+nav{background-color: rgb(105, 227, 248);width: 80%; height: 130px; margin: auto;  display: flex;  justify-content:space-around; align-items: center;}  
+ul {display: flex; flex-flow: row wrap; list-style-type: none;   }
+li { margin: 20px;}
+a {text-decoration:underline transparent; color: black; font-size: 1.15em; }
+.surligne { color: burlywood; border-bottom: 1px solid burlywood;}
+
+#saint-honore, #opera{width: 80%; margin: auto; border:  1px solid blueviolet; display: grid; grid-template-rows: 1fr; grid-template-columns: 2fr 7fr; column-gap: 20px; row-gap: 20px;}       
+#saint-honore article, #opera article {grid-column-start: 2; grid-column-end: 3; grid-row-start: 1; grid-row-end: 2;}
+#saint-honore aside, #opera aside {grid-column-start: 1; grid-column-end: 2 ; grid-row-start: 1; grid-row-end: 2; min-width: 250px;
+    }  
+
+#saint-honore aside{background: url("Saint-Honore.png"); background-size: contain;background-repeat: no-repeat;}
+
+#opera article , #opera aside{margin-top: 50px;}
+
+#opera aside {background: url("Saint-Honore.png"); background-size: cover;background-repeat: no-repeat; }
+
+#macarons{width: 80%; margin: auto; border:  1px solid blueviolet; display: grid; grid-template-rows: 1fr; grid-template-columns: 7fr 2fr; column-gap: 20px; row-gap: 20px;}       
+#macarons article {grid-column-start: 1; grid-column-end: 2; grid-row-start: 1; grid-row-end: 2; margin-top: 50px;}
+#macarons aside {grid-column-start: 2; grid-column-end: 3 ; grid-row-start: 1; grid-row-end: 2; background: url("Saint-Honore.png"); margin-top: 50px;
+background-size: cover ;background-repeat: no-repeat;} 
+
+
+        </style>
+
+    </head>
+
+    <body>
+
+ <!--On reprend ici le bandeau azur contenant le menu et un espace correspondant à la photo présente sur la page d'accueil
+Celui-ci devra être présent sur la totalité des pages du site
+De même, nous redevrons respecter les centrages de page, les polices...pour assurer un confort visuel au visiteur-->       
+        <nav>
+        <header style="width: 120px; height: 120px;"></header>
+    
+            <ul>
+                <li> <a href="">Accueil</a></li>
+                <li> <a href="">Ma bio</a></li>
+                <li> <a href="Passions.html">Mes passions</a></li>
+                <li> <a href="">Mes travaux</a></li>
+                <li> <a href="">Contact</a></li>
+
+            </ul>
+        </nav>  
+<!--1ereeme rubrique sur les patisseriesd-->
+        <section id="saint-honore">
+            <article>
+                <h1> J'ai une adoration dans la vie : les pâtisseries </h1>
+                <p>Cela a commencé dès le plus jeune âge car j'ai toujours privilégié la nourriture avant toute autre forme de plaisir : danse, filles, sport...
+                   C'est pour cette raison que j'ai toujours beaucoup mangé de tout à toute heure sans pourtant avoir jamais faim. 
+                </p>
+                <p>Quand j'étais petit, j'embêtais très souvent mes parents en leur faisant acheter le même gâteau quand nous passion l'été à Villers : le succulent!!
+                    Je crois pouvoir dire que ce sont mes madeleines de Proust à moi et que son souvenir me hantera jusqu'à mon lit de mort.
+                </p>
+                <p>
+                    N'ayant pas de photo de cette petite merveille, je vous ai mis celle de l'un des desserts que j'ai le plus aimé dans ma vie
+                    et que je n'ai jamais plus retrouvé par la suite : le Saint - Honoré. Vous en trouverz une magnifique
+                </p>
+            </article>    
+            <aside>
+            </aside>
+        </section>
+
+<!--2eme rubrique patisseries-->
+
+<section id="macarons">
+    <article>
+        <h1> J'ai une adoration dans la vie : les pâtisseries </h1>
+        <p>Cela a commencé dès le plus jeune âge car j'ai toujours privilégié la nourriture avant toute autre forme de plaisir : danse, filles, sport...
+           C'est pour cette raison que j'ai toujours beaucoup mangé de tout à toute heure sans pourtant avoir jamais faim. 
+        </p>
+        <p>Quand j'étais petit, j'embêtais très souvent mes parents en leur faisant acheter le même gâteau quand nous passion l'été à Villers : le succulent!!
+            Je crois pouvoir dire que ce sont mes madeleines de Proust à moi et que son souvenir me hantera jusqu'à mon lit de mort.
+        </p>
+        <p>
+            N'ayant pas de photo de cette petite merveille, je vous ai mis celle de l'un des desserts que j'ai le plus aimé dans ma vie
+            et que je n'ai jamais plus retrouvé par la suite : le Saint - Honoré. Vous en trouverz une magnifique
+        </p>
+    </article>    
+    <aside>
+    </aside>
+</section>
+
+
+
+
+     <!--3eme rubrique sur les patisseries-->   
+
+        <section id="opera">
+            <article>
+                <h1> J'ai une adoration dans la vie : les pâtisseries </h1>
+                <p>Cela a commencé dès le plus jeune âge car j'ai toujours privilégié la nourriture avant toute autre forme de plaisir : danse, filles, sport...
+                   C'est pour cette raison que j'ai toujours beaucoup mangé de tout à toute heure sans pourtant avoir jamais faim. 
+                </p>
+                <p>Quand j'étais petit, j'embêtais très souvent mes parents en leur faisant acheter le même gâteau quand nous passion l'été à Villers : le succulent!!
+                    Je crois pouvoir dire que ce sont mes madeleines de Proust à moi et que son souvenir me hantera jusqu'à mon lit de mort.
+                </p>
+                <p>
+                    N'ayant pas de photo de cette petite merveille, je vous ai mis celle de l'un des desserts que j'ai le plus aimé dans ma vie
+                    et que je n'ai jamais plus retrouvé par la suite : le Saint - Honoré. Vous en trouverz une magnifique
+                </p>
+            </article>    
+            <aside>
+            </aside>
+        </section>
+
+     </body>   
