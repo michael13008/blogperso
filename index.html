@@ -1,0 +1,105 @@
+# blogperso<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title> Home Page </title>
+        <meta charset="UTF-8">
+        <meta author="name" content="Michael PAVIO">
+
+        <style>
+
+section{width: 80%; margin: auto; border:  1px solid blueviolet;}            
+
+#entete{background-color: rgb(105, 227, 248); display: flex;  justify-content:space-around; align-items: center;}  
+ul {display: flex; flex-flow: row wrap; list-style-type: none;   }
+li { margin: 20px;}
+a {text-decoration:underline transparent; color: black; font-size: 1.15em; }
+.surligne { color: burlywood; border-bottom: 1px solid burlywood;}
+
+
+
+p {padding-left: 10%; padding-right: 10%; padding-top: 4px;  overflow: hidden; }
+
+#lettre{font-size: 3em; color: darkblue;}
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <section id="entete">
+            
+            <header>
+               <img src="Chat.png" alt="Photo-Logo-Entreprise" width="120px"; height="120px" style="margin-top: 5px;">
+            </header>
+            <nav>
+                <ul>
+                    <li> <a href="">Accueil</a></li>
+                    <li> <a href="">Ma bio</a></li>
+                    <li> <a href="Passions.html">Mes passions</a></li>
+                    <li> <a href="">Mes travaux</a></li>
+                    <li> <a href="">Contact</a></li>
+
+                </ul>
+            </nav>    
+
+        </section>
+
+        <section id="milieu">
+
+           <img src="Mer2.png" alt="maphoto" width="100%">
+
+        </section>
+
+        <section id="principal">
+            <p>  <span id="lettre">I</span>l m'a fallu bien des années avant de chercher à m'atteler à l'écriture d'un blog alors que chacun le fait depuis de nombreuses années, que cela soit des jeunes ou moins jeunes.
+            riture d'un blog alors que chacun le fait depuis de nombreuses années, que cela soit des jeunes ou moins jeunes.
+            </p>
+
+            <p>Il est en effet toujours difficile de parler de soi lorsque l'on préfère rester discrèt sur sa vie privée au quotidien mais après tout il peut 
+                être bon aussi de se lâcher tant qu'il n'y a pas de photos ou données compromettantes!
+            </p>
+
+            <p>Certains ont mis à profit la période COVID (qui n'est toujours pas finie d'ailleurs) pour faire du sport, regarder l'intégralité des séries qui passent sur 
+                Netflix (et il y en a) et d'autres n'ont pas eu le loisir de s'occuper d'eux car étaient en première ligne pour essayer de mener la guerre contre ce COVID
+                (soignants, caissiers, éboueurs...)
+            </p>
+
+            <p>
+                Et encore d'autres ont souffert en devant s'improviser professeur de nombreuses en raison des nombreuses fermetures d'écoles, grèves diverses et variées...Je plains sincèrement
+                ces parents même si j'ai l'impression que l'ensemble des employeurs se sont montrés très tolérants par rapport à ces personnes (et tant mieux)
+            </p>
+            <p>
+                Moi, j'ai eu plus de chance qu'eux car j'ai aussi bien pu pratiquer pas mal de sport pour me muscler (on sait jamais si un jour on revoit des filles dans la vraie vie en 
+                soirée) et je me suis également lancé dans l'apprentissage du HTML, CSS pour voir si cela me plaisait.
+            </p>
+            <p>
+                Après quelques mois passés à me former en solitaire, j'ai décidé de m'inscrire à des cours officiels pour échanger en petits groupes avec des personnes qui partagent mon 
+                intérêt et tenter d"acquérir de nouvelles compétences reconnues car mes activités professionnelles commençaient à me lasser mais ça j'y reviendrai plus tard...
+            </p>
+        </section>
+        </section>
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+
+            $(document).ready(function(){
+
+                $("a").hover(function(){
+                    $(this).toggleClass("surligne");
+                    $(section).Height();
+
+                });
+
+                
+            });
+
+            
+
+        </script>
+
+    </body>    
